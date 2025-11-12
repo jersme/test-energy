@@ -1,0 +1,27 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+langgraph-cli = {version = "0.1.71", extras  = ["inmem"]}
+
+[requires]
+python_version = "3.11"
+
+[packages]
+langgraph = "~=0.2.70"
+langchain-ollama = "*"
+plotly = "*"
+pdfkit = "*"
+markdown = "*"
+kaleido = "==1.0.0-rc.0"
+langchain_community = "*"
+langchain_openai = "*"
+pillow = "11.0.0"
+pypdf2 = "~=3.0"
+tiktoken = "~=0.8.0"
+FAISS-cpu = "~=1.9.0"
+google-search-results = "==2.4"
+yfinance = "~=0.2.52"
+unstructured = "~=0.16.17"
